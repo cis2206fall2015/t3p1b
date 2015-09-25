@@ -4,7 +4,7 @@ package employeefile;
  *
  * @author TMNC, Team 3; Richard Benjamin, Michaela Butz
  */
-public class Employee {
+public class Bloodsugar {
 
     private int empId;
     private String lastName;
