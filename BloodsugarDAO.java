@@ -13,18 +13,18 @@ import java.util.List;
 
 /**
  *
- * @author Your Name Here
+ * @author TMNC
  */
-public class EmployeeDAO {
+public class BloodsugarDAO {
 
     private final String fileName;
     protected final List<Employee> myList;
-
-    public EmployeeDAO() {
+:
+    public BloodsugarDAO() {
         this("empdata.txt");
     }
 
-    public EmployeeDAO(String fileName) {
+    public BloodsugarDAO(String fileName) {
         this.fileName = fileName;
         this.myList = new ArrayList<>();
         try {
